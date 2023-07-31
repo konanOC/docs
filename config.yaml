@@ -1,0 +1,64 @@
+baseURL: "https://konanoc.github.io/"
+title: "konanOC Project"
+theme: "PaperMod"
+DefaultContentLanguage: "ja"
+languageCode: "ja"
+publishDir: "docs"
+
+enableEmoji: true
+enableRobotsTXT: true
+enableInlineShortcodes: true
+buildDrafts: true
+hasCJKLanguage: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  author: ["Yuto KIMURA", "Takeshi KOIDE"]
+  description: "甲南大学 オープンキャンパス2023夏 特設サイト"
+  keywords: ["甲南大学", "オープンキャンパス"]
+  DateFormat: "2006-01-02"
+  defaultTheme: light # dark, light, auto
+  hidemeta: false
+  ShowToc: true
+  TocOpen: false
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowShareButtons: true
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    subtitle: "甲南大学 オープンキャンパス<br/>2023夏 特設サイト"
+    imageWidth: 256
+    imageHeight: 256
+    buttons:
+      - name: "> 開発者裏話"
+        url: "readme"
+
+  # profile-modeでアイコンの下に表示される
+  # ref: https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-icons/#social-icons
+  socialIcons:
+    - name: github
+      url: "https://github.com/konanOC"
+    - name: other homepage
+      url: "https://ch.konan-u.ac.jp/event/open-campus/"
+    - name: rss
+      url: "index.xml"
+
+  # static/からの相対パスであることに注意
+  assets:
+    css: "css/custom.css"
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+  goldmark:
+    renderer:
+      unsafe: true
+
+minify:
+  disableXML: false
+  minifyOutput: true
