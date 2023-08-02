@@ -1,9 +1,11 @@
-baseURL: "https://konanoc.github.io/"
+baseURL: ""
+# baseURL: "https://konanoc.github.io/docs"
 title: "konanOC Project"
 theme: "PaperMod"
 DefaultContentLanguage: "ja"
 languageCode: "ja"
-publishDir: "docs"
+# TODO: add Google Analytics tag
+# googleAnalytics: UA-123-45
 
 enableEmoji: true
 enableRobotsTXT: true
@@ -13,11 +15,11 @@ hasCJKLanguage: true
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  author: ["Yuto KIMURA", "Takeshi KOIDE"]
-  description: "甲南大学 オープンキャンパス2023夏 特設サイト"
-  keywords: ["甲南大学", "オープンキャンパス"]
+  author: ["Yuto KIMURA"]
+  subtitle: "甲南大学オープンキャンパス 2023年 夏の企画「甲南生とパネルアタック」特設サイトです"
+  keywords: ["甲南大学", "オープンキャンパス", "特設サイト"]
   DateFormat: "2006-01-02"
-  defaultTheme: light # dark, light, auto
+  defaultTheme: auto # dark, light, auto
   hidemeta: false
   ShowToc: true
   TocOpen: false
@@ -30,7 +32,8 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    subtitle: "甲南大学 オープンキャンパス<br/>2023夏 特設サイト"
+    subtitle: "甲南大学オープンキャンパス<br>2023年 夏の企画<br>「甲南生とパネルアタック」<br>特設サイトです"
+    # subtitle: "甲南大学 オープンキャンパス<br/>2023夏 特設サイト"
     imageWidth: 256
     imageHeight: 256
     buttons:
