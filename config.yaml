@@ -14,7 +14,7 @@ hasCJKLanguage: true
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   author: ["Yuto KIMURA"]
-  subtitle: "甲南大学オープンキャンパス 2023年 夏の企画「甲南生とパネルアタック」特設サイトです"
+  description: "甲南大学 オープンキャンパスの学生企画「甲南生とパネルアタック」特設サイトです"
   keywords: ["甲南大学", "オープンキャンパス", "特設サイト"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light, auto
@@ -30,7 +30,7 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    subtitle: "甲南大学オープンキャンパス<br>2023年 夏の企画<br>「甲南生とパネルアタック」<br>特設サイトです"
+    subtitle: "甲南大学 オープンキャンパスの<br>学生企画<br>「甲南生とパネルアタック」<br>特設サイトです"
     # subtitle: "甲南大学 オープンキャンパス<br/>2023夏 特設サイト"
     imageWidth: 256
     imageHeight: 256

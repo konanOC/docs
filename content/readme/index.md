@@ -1,18 +1,18 @@
 ---
 title: "開発者裏話"
 date: 2023-07-31
-description: "開発の裏側を紹介します"
+description: "オープンキャンパスアプリ開発の裏側を紹介します"
 ---
 
 ## 1. はじめに
-このページでは，開発者裏側として，アプリ開発の流れなどを紹介します．
+このサイトは，[甲南大学](https://www.konan-u.ac.jp/) 岡本キャンパスで [2023/08/06(日) に実施されたオープンキャンパス](https://ch.konan-u.ac.jp/event/open-campus/pdf/konan_oc_program_okamoto.pdf#page=3) の学生企画「甲南生とクイズアタック」に関するものです．企画で使用したアプリの開発メンバーが執筆しました．アプリ開発の裏側として，開発の流れや苦労した点などを紹介します．
 
 ## 2. プロジェクトメンバー
 [甲南大学 知能情報学部](https://www.konan-u.ac.jp/faculty/ii/) が主催する，[スーパーIT人材育成プロジェクト｜競技プログラミング勉強会](https://www.konan-u.ac.jp/hp/seki/premier/icpc) に参加しているメンバーと，
 オープンキャンパススタッフを小出先生が繋げてくださったことがきっかけで，このプロジェクトがスタートしました．
 貴重な機会を作り出していただき，ありがとうございます．
 
-- [小出 先生（知能情報学部. 以降 敬称略）](https://www.konan-u.ac.jp/hp/koide/faculty.html), [研究室HP](https://www.konan-u.ac.jp/hp/koide/index.html)
+- [小出 先生（知能情報学部. 以降 敬称略）](https://researchers.adm.konan-u.ac.jp/html/528_ja.html), [研究室HP](https://www.konan-u.ac.jp/hp/koide/index.html)
 - [木村（知能情報学部 4年）](https://github.com/yuto-kimura-g), [HP](https://yuto-kimura-g.github.io/)
 - [前原（知能情報学部 4年）](https://github.com/Hiroki-Maehara)
 - [角谷（知能情報学部 2年）](https://github.com/s2271119)
