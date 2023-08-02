@@ -14,6 +14,7 @@ hasCJKLanguage: true
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   author: ["Yuto KIMURA"]
+  images: ["images/x.png"] # og:image？
   description: "甲南大学 オープンキャンパスの学生企画「甲南生とパネルアタック」特設サイトです"
   keywords: ["甲南大学", "オープンキャンパス", "特設サイト"]
   DateFormat: "2006-01-02"
@@ -51,6 +52,7 @@ params:
   # static/からの相対パスであることに注意
   assets:
     css: "css/custom.css"
+    favicon: "images/x.png"
 
 markup:
   highlight:

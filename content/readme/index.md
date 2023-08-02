@@ -2,6 +2,8 @@
 title: "開発者裏話"
 date: 2023-07-31
 description: "オープンキャンパスアプリ開発の裏側を紹介します"
+cover:
+  image: "images/GitGraph.png"
 ---
 
 ## 1. はじめに
