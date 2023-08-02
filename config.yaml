@@ -4,8 +4,6 @@ title: "konanOC Project"
 theme: "PaperMod"
 DefaultContentLanguage: "ja"
 languageCode: "ja"
-# TODO: add Google Analytics tag
-# googleAnalytics: UA-123-45
 
 enableEmoji: true
 enableRobotsTXT: true
