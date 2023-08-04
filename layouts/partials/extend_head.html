@@ -4,13 +4,19 @@
 <head></head> section of every page. */ -}}
 {{- /* Can be overwritten by partial with the same name in the global layouts. */ -}}
 
-{{/* MEMO: Google tag (gtag.js) */}}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G5HQ87K9E0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'G-G5HQ87K9E0');
+<script type="text/javascript">
+  window.onload = () => {
+    if (document.querySelector(".profile")) {
+      // トップ画面のみ
+      window.setTimeout(() => {
+        window.scroll({
+          top: window.innerHeight,
+          left: 0,
+          behavior: "smooth",
+        });
+      }, 500);
+    }
+  }
 </script>
 
 {{/* MEMO: texを使うためにCDNをインポート */}}
@@ -52,5 +58,14 @@
 
 {{/* MEMO: CSSを追加 */}}
 <link rel="stylesheet" href="{{ site.Params.assets.css | absURL }}">
+
+{{/* MEMO: Google tag (gtag.js) */}}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G5HQ87K9E0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-G5HQ87K9E0');
+</script>
 
 {{- /* Head custom content area end */ -}}

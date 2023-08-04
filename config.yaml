@@ -1,5 +1,4 @@
-baseURL: ""
-# baseURL: "https://konanoc.github.io/docs"
+baseURL: "https://konanoc.github.io/docs"
 title: "konanOC Project"
 theme: "PaperMod"
 DefaultContentLanguage: "ja"
@@ -16,7 +15,8 @@ params:
   author: ["Yuto KIMURA"]
   images: ["images/x.png"] # og:image？
   description: "甲南大学 オープンキャンパスの学生企画「甲南生とパネルアタック」特設サイトです"
-  keywords: ["甲南大学", "オープンキャンパス", "特設サイト"]
+  keywords:
+    ["甲南大学", "オープンキャンパス", "特設サイト", "甲南生とパネルアタック"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light, auto
   hidemeta: false
@@ -32,12 +32,6 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     subtitle: "甲南大学 オープンキャンパスの<br>学生企画<br>「甲南生とパネルアタック」<br>特設サイトです"
-    # subtitle: "甲南大学 オープンキャンパス<br/>2023夏 特設サイト"
-    imageWidth: 256
-    imageHeight: 256
-    buttons:
-      - name: "> 開発者裏話"
-        url: "readme"
 
   # profile-modeでアイコンの下に表示される
   # ref: https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-icons/#social-icons
@@ -45,7 +39,9 @@ params:
     - name: github
       url: "https://github.com/konanOC"
     - name: other homepage
-      url: "https://ch.konan-u.ac.jp/event/open-campus/"
+      url: "https://ch.konan-u.ac.jp/event/open-campus"
+    - name: other homepage
+      url: "note"
     - name: rss
       url: "index.xml"
 
