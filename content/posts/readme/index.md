@@ -14,7 +14,8 @@ cover:
 ## 2. プロジェクトメンバー
 [甲南大学 知能情報学部](https://www.konan-u.ac.jp/faculty/ii/) が主催する，[スーパーIT人材育成プロジェクト｜競技プログラミング勉強会](https://www.konan-u.ac.jp/hp/seki/premier/icpc) に参加しているメンバーと，
 オープンキャンパススタッフを小出先生が繋げてくださったことがきっかけで，このプロジェクトがスタートしました．
-貴重な機会を作り出していただき，ありがとうございます．
+
+小出先生へ：貴重な機会を作り出していただき，ありがとうございます．
 
 - [小出 先生（知能情報学部. 以降 敬称略）](https://researchers.adm.konan-u.ac.jp/html/528_ja.html), [研究室HP](https://www.konan-u.ac.jp/hp/koide/index.html)
 - [木村（知能情報学部 4年）](https://github.com/yuto-kimura-g), [HP](https://yuto-kimura-g.github.io/)
