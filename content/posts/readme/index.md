@@ -126,7 +126,7 @@ Git の拡張機能と言えば，`Git Graph` もお気に入りです．
 ### 3.6. 授業
 > 担当：木村
 
-HTML, CSS, JSのマナーや，Gitコマンド（pull, switch, add, commit, push, stash, ...），GitHubの使い方（issue, Pull Reqest, review）などを共有しました．
+HTML, CSS, JSのマナーや，Gitコマンド（`pull, switch, add, commit, push, stash, ...`），GitHubの使い方（`issue, Pull Reqest, review, ...`）などを共有しました．
 
 ### 3.7.（いよいよ）実装
 > 担当：木村，前原，角谷
@@ -195,7 +195,9 @@ HTML, CSS, JSのマナーや，Gitコマンド（pull, switch, add, commit, push
 背景には幾何学模様を複数配置し，それぞれ回転しています．
 この幾何学模様は角谷さんが作ってくれました．なんと直線だけで表現されているらしく，すごいですね．
 
-TODO: スクリーンショット
+※縦のalignがズレているのは，プロポーショナルフォントを使用しているためです．
+
+![ending page](images/screenshot-ending.png)
 
 ## 5. 苦労した点
 この章では，苦労した点を紹介します．
@@ -257,7 +259,7 @@ git log --numstat --pretty="%H" --author='hoge' | awk 'NF==3 {plus+=$1; minus+=$
 | 編集者 | commit line (+, -) |
 |:-:|:-:|
 木村 | `1859 (+1318, -541)`
-前原 | `253 (+186, -67)`
+前原 | `257 (+190, -67)`
 角谷 | `75 (+53, -22)`
 小出 | `1 (+1, -0)`
 
@@ -266,7 +268,7 @@ git log --numstat --pretty="%H" --author='hoge' | awk 'NF==3 {plus+=$1; minus+=$
 git rev-list --count main
 ```
 
-`81`
+`83`
 
 `stash`したものを含めるともう少し多くなります．
 
@@ -275,12 +277,12 @@ git rev-list --count main
 git branch | wc -l
 ```
 
-`16`
+`17`
 
 ### 7.2. GitHubの記録
 #### 7.2.1. issue, PR数
 - `issue` : `18 (5 open, 13 closed)`
-- `Pull Request` : `23 (0 open, 23 closed)`
+- `Pull Request` : `24 (0 open, 24 closed)`
 
 ### 7.3. 各ファイルの行数など
 ```bash
