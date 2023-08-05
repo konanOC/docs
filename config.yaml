@@ -14,7 +14,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   author: ["Yuto KIMURA"]
   images: ["images/x.png"] # og:image？
-  description: "甲南大学 オープンキャンパスの学生企画「甲南生とパネルアタック」特設サイトです"
+  description: "甲南大学 オープンキャンパスの学生企画「甲南生とパネルアタック」アプリ開発者による特設サイトです"
   keywords:
     ["甲南大学", "オープンキャンパス", "特設サイト", "甲南生とパネルアタック"]
   DateFormat: "2006-01-02"
@@ -31,15 +31,17 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    subtitle: "甲南大学 オープンキャンパスの<br>学生企画<br>「甲南生とパネルアタック」<br>特設サイトです"
+    subtitle: "甲南大学 オープンキャンパスの<br>学生企画<br>「甲南生とパネルアタック」<br>アプリ開発者による特設サイトです"
 
   # profile-modeでアイコンの下に表示される
   # ref: https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-icons/#social-icons
   socialIcons:
     - name: other homepage
+      url: "https://www.konan-u.ac.jp/"
+    - name: other homepage
       url: "https://ch.konan-u.ac.jp/event/open-campus"
-    - name: rss
-      url: "index.xml"
+    - name: other homepage
+      url: "https://ch.konan-u.ac.jp/event/open-campus/pdf/konan_oc_program_okamoto.pdf"
 
   # static/からの相対パスであることに注意
   assets:
@@ -64,7 +66,3 @@ menu: # ヘッダーの右側にあるやつ
       name: "プライバシーポリシー"
       url: "pp"
       weight: 10
-    - identifier: note
-      name: "メモです"
-      url: "note"
-      weight: 20
