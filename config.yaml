@@ -36,12 +36,8 @@ params:
   # profile-modeでアイコンの下に表示される
   # ref: https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-icons/#social-icons
   socialIcons:
-    - name: github
-      url: "https://github.com/konanOC"
     - name: other homepage
       url: "https://ch.konan-u.ac.jp/event/open-campus"
-    - name: other homepage
-      url: "note"
     - name: rss
       url: "index.xml"
 
@@ -61,3 +57,14 @@ markup:
 minify:
   disableXML: false
   minifyOutput: true
+
+menu: # ヘッダーの右側にあるやつ
+  main:
+    - identifier: pp
+      name: "プライバシーポリシー"
+      url: "pp"
+      weight: 10
+    - identifier: note
+      name: "メモです"
+      url: "note"
+      weight: 20
